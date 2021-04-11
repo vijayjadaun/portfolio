@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+.homeParentContainer  {
+    height: 100vh;
+    max-width: 100%;
+    background-color: black;
+    padding: 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.homeImage {
+    margin-top: 0%;
+    height:100%;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(../Resources/12.jpg);
+    background-size: auto 100%;
+    background-position: center;
+    padding: 1px;
+    background-repeat: no-repeat;
+}
+
+.homeText {
+    height:36%;
+    width:100%;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.homeText h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 75px;
+    font-weight:300;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.homeSpan {
+
+    margin-top: 0;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.changingText {
+
+    display: inline;
+    margin-top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    color:#c49b66;
+    position: relative;
+    margin-left: 0;
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .homeImage {
+        width : 100%;
+    }
+
+    .homeText {
+        margin-top: 60%;
+    }
+
+    .homeText h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .homeSpan{
+        font-size:22px;
+        font-weight: 500;
+    }
+    .changingText{
+        font-size: 22px;
+        font-weight: 500;
+        display: block;
+    }
+}
+
+
+
